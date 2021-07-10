@@ -15,8 +15,8 @@ import java.util.Optional;
 @RequestMapping("skills")
 public class SkillController {
     @Autowired
-
     private SkillRepository skillRepository;
+
 
     @GetMapping("add")
     public String displayAddSkillForm(Model model) {
